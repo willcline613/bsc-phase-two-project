@@ -49,7 +49,6 @@ For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.ed
 
  ## Repository Structure 
 
-
 project-folder
 
     |
@@ -64,6 +63,7 @@ project-folder
                   member-1-notebooks-folder
                   member-2-notebooks-folder 
                   member-3-notebooks-folder 
+
 
 # Happy Home Helper
 Our best model encorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
