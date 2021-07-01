@@ -4,6 +4,7 @@
 Dorothy Alexander and Will Cline
 
 ## Overview
+![for sale image](images/for_sale.png)
 This project helps people who are looking to put their house on the market find the best estimate of their sale price. Descriptive analysis helps to show how other factors effect the price of the house that is on the market. Some factors effect the direct price of the house more drastically than other factors we assessed.
 
 ## Business Problem
