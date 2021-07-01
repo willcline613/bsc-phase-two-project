@@ -51,7 +51,6 @@ For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.ed
 
 
 project-folder
-
     |
     README.md
     data-folder
