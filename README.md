@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Phase Two Project 
 
 ## Authors: 
@@ -52,7 +51,6 @@ For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.ed
 
 
  project-folder
- 
     |
     README.md
     data-folder
@@ -65,11 +63,11 @@ For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.ed
                   member-1-notebooks-folder
                   member-2-notebooks-folder 
                   member-3-notebooks-folder 
-=======
+
 # Happy Home Helper
 Our best model encorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
 'sqft_above', 'sqft_living15', 'sqft_lot15', 'age', 'months_ago_sold';
 one hot encoded zip code; and these columns made from multiplying other top correlated models: 'sqft_living&above',
 'sqft_living&grade', 'sqft_living&living15', 'grade&sqft_above', 'bathrooms&sqft_living', 'sqft_above&sqft_living15',
 'grade&sqft_living15'
->>>>>>> 3684dbc871bfe805a01a190a249aaffaba93f6a5
+
