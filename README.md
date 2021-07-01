@@ -50,8 +50,8 @@ For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.ed
  ## Repository Structure 
 
 
- project-folder
- 
+project-folder
+
     |
     README.md
     data-folder
