@@ -66,7 +66,7 @@ project-folder
 
 
 # Happy Home Helper
-Our best model encorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
+Our best model incorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
 'sqft_above', 'sqft_living15', 'sqft_lot15', 'age', 'months_ago_sold'
 
 We one hot encoded the column zip code in order to have all of the zip codes accounted for individually
