@@ -6,6 +6,23 @@ Dorothy Alexander and Will Cline
 ## Overview
 This project helps people who are looking to put their house on the market find the best estimate of their sale price. Descriptive analysis helps to show how other factors effect the price of the house that is on the market. Some factors effect the direct price of the house more drastically than other factors we assessed.
 
+## Repository Structure 
+
+project-folder
+
+    |
+    README.md
+    data-folder
+    images-folder
+    notebooks-folder
+          |
+          report.ipynb
+          exploratory-folder
+                  |
+                  member-1-notebooks-folder
+                  member-2-notebooks-folder 
+                  member-3-notebooks-folder 
+
 ## Business Problem
 Predictive:
 
@@ -47,26 +64,13 @@ Please review our full analysis in [complete jupyter notebook]() or our [present
 
 For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.edu, Will Cline & wrcline@bsc.edu
 
- ## Repository Structure 
-
-
- project-folder
- 
-    |
-    README.md
-    data-folder
-    images-folder
-    notebooks-folder
-          |
-          report.ipynb
-          exploratory-folder
-                  |
-                  member-1-notebooks-folder
-                  member-2-notebooks-folder 
-                  member-3-notebooks-folder 
 # Happy Home Helper
-Our best model encorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
-'sqft_above', 'sqft_living15', 'sqft_lot15', 'age', 'months_ago_sold';
-one hot encoded zip code; and these columns made from multiplying other top correlated models: 'sqft_living&above',
+Our best model incorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
+'sqft_above', 'sqft_living15', 'sqft_lot15', 'age', 'months_ago_sold'
+
+We one hot encoded the column zip code in order to have all of the zip codes accounted for individually
+
+Other columns were created by multiplying other top correlated models: 'sqft_living&above',
 'sqft_living&grade', 'sqft_living&living15', 'grade&sqft_above', 'bathrooms&sqft_living', 'sqft_above&sqft_living15',
 'grade&sqft_living15'
+
