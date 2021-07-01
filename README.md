@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Phase Two Project 
 
 ## Authors: 
@@ -44,7 +43,7 @@ Our predictive model uses price as the output. We did most of our analysis on sq
 It would be beneficial for the real estate company to set the guided user interface on a website so their clinates can use it. It would be important for them to make it user friendly. It would also be smart to have login information so their clients could login to the guided user interface and can save the data they found within the guidlines they put in the guided user interface. 
 
  ## For More Information
-Please review our full analysis in ![complete jupyter notebook]() or our ![presentation]().
+Please review our full analysis in [complete jupyter notebook]() or our [presentation]().
 
 For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.edu, Will Cline & wrcline@bsc.edu
 
@@ -65,11 +64,9 @@ For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.ed
                   member-1-notebooks-folder
                   member-2-notebooks-folder 
                   member-3-notebooks-folder 
-=======
 # Happy Home Helper
 Our best model encorporates these columns: bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'grade',
 'sqft_above', 'sqft_living15', 'sqft_lot15', 'age', 'months_ago_sold';
 one hot encoded zip code; and these columns made from multiplying other top correlated models: 'sqft_living&above',
 'sqft_living&grade', 'sqft_living&living15', 'grade&sqft_above', 'bathrooms&sqft_living', 'sqft_above&sqft_living15',
 'grade&sqft_living15'
->>>>>>> 3684dbc871bfe805a01a190a249aaffaba93f6a5
