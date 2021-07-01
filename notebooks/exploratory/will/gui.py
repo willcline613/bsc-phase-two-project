@@ -14,7 +14,6 @@ from sklearn.preprocessing import LabelEncoder
 from scipy.stats import zscore
 from scipy import stats
 from tkinter import *
-from PIL import Image, ImageTk
 import pickle
 from collections import Counter
 import warnings
@@ -148,11 +147,6 @@ def click():
 #run and make gui work
 window = Tk()
 window.title("my first")
-
-image = Image.open("../../../images/bill.jpg")
-photo = ImageTk.PhotoImage(image)
-lbl= Label(window,image=photo)
-lbl.pack(pady=0,padx=0)
 
 window.configure(background="blue")
 #create header label
