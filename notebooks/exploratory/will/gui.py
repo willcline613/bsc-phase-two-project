@@ -63,7 +63,7 @@ def clean(df):
     df["grade&sqft_above"] = df["grade"] * df["sqft_above"]
     df["grade&sqft_living15"] = df["grade"] * df["sqft_living15"]
     df["grade&sqft_above"] = df["grade"] * df["sqft_above"]
-    
+  
 
     onehot_data = ohe.transform(df[['zipcode']])
     zip_code = pd.DataFrame(onehot_data, columns=ohe.get_feature_names())
@@ -147,6 +147,7 @@ def click():
 #run and make gui work
 window = Tk()
 window.title("my first")
+
 window.configure(background="blue")
 #create header label
 Label (window, text="Enter the data:", bg="blue", fg="white", font="none 22 bold") .grid(row=0, column=0, columnspan=2, sticky=W)
@@ -159,28 +160,40 @@ for item in input_labels:
 #create label entry boxes
 sqft_living = Entry(window, width=20, bg="white")
 sqft_living.grid(row=1, column=1, sticky=W)
+sqft_living.insert(0, "1180")
 grade = Entry(window, width=20, bg="white")
 grade.grid(row=2, column=1, sticky=W)
+grade.insert(0, "7")
 sqft_above = Entry(window, width=20, bg="white")
 sqft_above.grid(row=3, column=1, sticky=W)
+sqft_above.insert(0, "1180")
 sqft_living15 = Entry(window, width=20, bg="white")
 sqft_living15.grid(row=4, column=1, sticky=W)
+sqft_living15.insert(0, "1340")
 bathrooms = Entry(window, width=20, bg="white")
 bathrooms.grid(row=5, column=1, sticky=W)
+bathrooms.insert(0, "1")
 bedrooms = Entry(window, width=20, bg="white")
 bedrooms.grid(row=6, column=1, sticky=W)
+bedrooms.insert(0, "3")
 floors = Entry(window, width=20, bg="white")
 floors.grid(row=7, column=1, sticky=W)
+floors.insert(0, "1")
 sqft_lot = Entry(window, width=20, bg="white")
 sqft_lot.grid(row=8, column=1, sticky=W)
+sqft_lot.insert(0, "5650")
 sqft_lot15 = Entry(window, width=20, bg="white")
 sqft_lot15.grid(row=9, column=1, sticky=W)
+sqft_lot15.insert(0, "5650")
 yr_built = Entry(window, width=20, bg="white")
 yr_built.grid(row=10, column=1, sticky=W)
+yr_built.insert(0, "1955")
 zipcode = Entry(window, width=20, bg="white")
 zipcode.grid(row=11, column=1, sticky=W)
+zipcode.insert(0, "98178")
 date = Entry(window, width=20, bg="white")
 date.grid(row=12, column=1, sticky=W)
+date.insert(0, "10/13/2014")
 #Add submit button
 Button (window, text="SUBMIT", width=6, command=click) .grid(row=len(input_labels)+1,column=0, columnspan=2, sticky=W)
 #Add another label
