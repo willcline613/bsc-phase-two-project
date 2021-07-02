@@ -60,7 +60,7 @@ Our predictive model uses price as the output. We did most of our analysis on sq
 It would be beneficial for the real estate company to set the guided user interface on a website so their clinates can use it. It would be important for them to make it user friendly. It would also be smart to have login information so their clients could login to the guided user interface and can save the data they found within the guidlines they put in the guided user interface. 
 
  ## For More Information
-Please review our full analysis in [complete jupyter notebook]() or our [presentation]().
+Please review our full analysis in [complete jupyter notebook](https://github.com/willcline613/bsc-phase-two-project/blob/developing/notebooks/report.ipynb) or our [presentation](https://github.com/willcline613/bsc-phase-two-project/blob/developing/images/phase2_project.pdf).
 
 For any additional questions, please contact Dorothy Alexander & dcalexan@bsc.edu, Will Cline & wrcline@bsc.edu
 
